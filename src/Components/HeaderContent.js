@@ -9,6 +9,10 @@ const HeaderContent = () => {
     setFormShow(true);
   };
 
+  const exitFormHandler = () =>{
+    setFormShow(false);
+  }
+
   return (
     <div className="Header-Content">
       <div className="header-content-left">
@@ -27,7 +31,7 @@ const HeaderContent = () => {
           Lets Talk
         </button>
       </div>
-      {formShow && <HeaderForm />}
+      {formShow && <HeaderForm onExit={exitFormHandler} />}
     </div>
   );
 };
