@@ -1,0 +1,64 @@
+.Header-form {
+  width: 27rem;
+  height: 36rem;
+  padding: 16px 32px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.4);
+  animation: myform 390ms ease-out forwards;
+}
+
+@keyframes myform {
+  0% {
+    transform: translateX(-122px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Header-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Header-form form label {
+  font-size: 23.88px;
+  margin-top: 23.6px;
+}
+
+.Header-form form input {
+  margin: 10px 0;
+  height: 2.8rem;
+  width: 90%;
+  font-size: 22px;
+  padding: 2.899px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.Header-form form input:focus {
+  outline: none;
+}
+
+.Header-form form input:placeholder-shown {
+  font-size: 16.88px;
+}
+
+.Header-form form button {
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 16px 35px;
+  cursor: pointer;
+  border: 0;
+  margin: 26px 0;
+  text-align: center;
+  background-color: #0096ff;
+  transition: all 250ms linear;
+}
+
+.Header-form form button:hover {
+  background-color: white !important;
+  color: #0096ff;
+}

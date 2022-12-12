@@ -1,0 +1,41 @@
+.Header-Content {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content-left {
+  width: 28rem;
+  height: 10rem;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 22px;
+  backdrop-filter: blur(3.5px);
+}
+
+.header-content-left p h2,
+h3,
+h4 {
+  display: inline-block;
+  font-size: 28.55px !important;
+  font-weight: 400;
+}
+
+.header-content-left p span {
+  font-size: 44px;
+}
+
+.header-btn {
+  margin: 18px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 16px 26px;
+  cursor: pointer;
+  background: transparent;
+  border: 1.8px solid #0096ff;
+}
