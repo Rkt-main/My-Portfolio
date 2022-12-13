@@ -57,15 +57,18 @@ h4 {
   font-size: 18px;
   border-radius: 8px;
   padding: 16px 26px;
+  font-weight: 500;
   cursor: pointer;
   background: transparent;
   border: 1.5px solid white;
   transition: all 290ms linear;
+  color: #def1ff;
 }
 
 
 .header-btn:hover{
-  background-color:#0096ff;
+  background-color: #def1ff;
+  color: black;
 }
 
 .minions-logo {
