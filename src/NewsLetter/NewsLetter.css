@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto+Condensed&family=Squada+One&display=swap");
+
+.News-letter {
+  width: 100%;
+  min-height: 100vh;
+  padding: 26px 140px;
+  background-image: url(../Assets/sectin-newsletter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.newsletter-content{
+    padding: 32px 55px 0 0;
+}
+
+.News-letter h1 {
+  font-size: 138px;
+  font-weight: 600;
+  margin: 86px 0 20px 0;
+  font-family: "Squada One", cursive;
+  background: linear-gradient(to right, #0062ff 5%, #fff 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.newsletter-background {
+  width: 100%;
+  height: 95vh;
+  padding: 22px;
+  border-radius: 52px;
+  background-color: rgba(255, 255, 255, 0.029);
+}
+
+.newsletter-content p{
+    color: white;
+    font-size:21.3px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    text-align: left;
+}

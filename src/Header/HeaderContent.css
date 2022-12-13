@@ -7,26 +7,44 @@
 }
 
 .header-content-left {
-  width: 28rem;
-  min-height: 10rem;
-  padding: 12px;
+  width: 52rem;
+  min-height: 20rem;
+  padding: 26px 36px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  border-radius: 22px;
-  backdrop-filter: blur(3.5px);
+  border-radius: 32px;
+  backdrop-filter: blur(29.5px);
+  position: relative;
+  overflow: hidden;
+  transition: all 250ms linear;
+}
+
+.header-content-left:hover {
+  background-color: rgba(255, 255, 255, 0.059);
+}
+
+.header-content-left:hover .minions-logo {
+  opacity: 1;
+}
+
+.name {
+  color: white;
 }
 
 .header-content-left p h2,
 h3,
 h4 {
   display: inline-block;
-  font-size: 28.55px !important;
+  font-size: 38.55px !important;
   font-weight: 400;
+  margin-right: 4.8px;
 }
 .header-content-para {
   margin: 14px 0;
+  font-weight: 500;
+  font-size: 17.044px;
   letter-spacing: 1.2px;
 }
 
@@ -41,5 +59,26 @@ h4 {
   padding: 16px 26px;
   cursor: pointer;
   background: transparent;
-  border: 1.8px solid #0096ff;
+  border: 1.5px solid white;
+  transition: all 290ms linear;
+}
+
+
+.header-btn:hover{
+  background-color:#0096ff;
+}
+
+.minions-logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -10px;
+  right: -30px;
+  opacity: 0.288;
+  transition: all 0.3s ease;
+}
+
+.minions-logo img {
+  width: 100%;
+  height: 100%;
 }

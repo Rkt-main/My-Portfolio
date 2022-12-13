@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./HeaderContent.css";
 import HeaderForm from "./HeaderForm";
+import minions from "../Assets/minion.png";
 
 const HeaderContent = () => {
   const [formShow, setFormShow] = useState(false);
@@ -16,12 +17,12 @@ const HeaderContent = () => {
   return (
     <div className="Header-Content">
       <div className="header-content-left">
-        <p>
+        <p className="name">
           <h2>
             <span>R</span>ishabh
           </h2>{" "}
           <h3>
-            <span>k</span>umar
+            <span>K</span>umar
           </h3>{" "}
           <h4>
             <span>T</span>iwari
@@ -34,6 +35,10 @@ const HeaderContent = () => {
         <button className="header-btn" onClick={openFormHandler}>
           Lets Talk
         </button>
+
+        <div className="minions-logo">
+          <img src={minions} />
+        </div>
       </div>
       {formShow && <HeaderForm onExit={exitFormHandler} />}
     </div>
