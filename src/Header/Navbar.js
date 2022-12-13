@@ -4,9 +4,15 @@ import NavContact from "./NavContact";
 import NavList from "./NavList";
 
 const Navbar = () => {
+const navbarscroll = React.createRef();
+
+// const navbarscroll = () =>{
+
+// }
+
   return (
     <div className="Navbar">
-      <NavList />
+      <NavList ref={navbarscroll} />
       <NavContact />
     </div>
   );

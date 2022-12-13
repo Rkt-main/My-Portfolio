@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/NavList.css";
+import "./NavList.css";
 import logo from "../Assets/1658324091888.jpg";
 
 const NavList = () => {

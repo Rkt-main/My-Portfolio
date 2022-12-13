@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import "../Components/HeaderForm.css";
+import "./HeaderForm.css";
 
 const HeaderForm = (props) => {
   const [fname, setfname] = useState("");

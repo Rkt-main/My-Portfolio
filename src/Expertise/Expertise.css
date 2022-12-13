@@ -1,0 +1,18 @@
+.Expertise {
+  width: 100%;
+  min-height: 130vw;
+  padding: 26px 140px;
+  background-image: url(../Assets/sufyan-qH8nsm28W0E-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Expertise-Background {
+  width: 100%;
+  min-height: 95vh;
+  padding: 22px;
+  border-radius: 52px;
+  /* clip-path: circle(50% at 50% 50%); */
+  /* background-color: rgba(255, 255, 255, 0.156); */
+}

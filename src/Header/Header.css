@@ -5,6 +5,7 @@
   background-image: url(../Assets/abik-peravan-4TfTVsZ26-0-unsplash.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .Header-background {

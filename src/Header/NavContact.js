@@ -1,5 +1,5 @@
 import React from "react";
-import "../Components/NavContact.css";
+import "./NavContact.css";
 import git from "../Assets/github.png";
 import instagram from "../Assets/instagram.png";
 import linkedin from "../Assets/linkedin.png";

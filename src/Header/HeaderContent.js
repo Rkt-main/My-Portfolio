@@ -9,9 +9,9 @@ const HeaderContent = () => {
     setFormShow(true);
   };
 
-  const exitFormHandler = () =>{
+  const exitFormHandler = () => {
     setFormShow(false);
-  }
+  };
 
   return (
     <div className="Header-Content">
@@ -26,6 +26,10 @@ const HeaderContent = () => {
           <h4>
             <span>T</span>iwari
           </h4>
+        </p>
+        <p className="header-content-para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          convallis erat sed lacinia hendrerit.
         </p>
         <button className="header-btn" onClick={openFormHandler}>
           Lets Talk

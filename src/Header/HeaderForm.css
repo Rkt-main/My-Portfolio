@@ -4,7 +4,7 @@
   padding: 16px 32px;
   border-radius: 16px;
   background-color: rgba(255, 255, 255, 0.4);
-  animation: myform 390ms ease-out forwards;
+  animation: myform 490ms ease-out forwards;
 }
 
 @keyframes myform {
