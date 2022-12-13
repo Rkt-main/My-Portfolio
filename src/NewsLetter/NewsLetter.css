@@ -11,18 +11,20 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.newsletter-content{
-    padding: 32px 55px 0 0;
+.newsletter-content {
+  padding: 32px 55px 0 0;
 }
 
 .News-letter h1 {
+  display: inline-block;
   font-size: 138px;
   font-weight: 600;
   margin: 86px 0 20px 0;
   font-family: "Squada One", cursive;
-  background: linear-gradient(to right, #0062ff 5%, #fff 95%);
+  background: linear-gradient(to right, #0062ff 1%, #fff 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  border-bottom: #0062ff 2px solid;
 }
 
 .newsletter-background {
@@ -30,13 +32,34 @@
   height: 95vh;
   padding: 22px;
   border-radius: 52px;
-  background-color: rgba(255, 255, 255, 0.029);
+  background-color: rgba(255, 255, 255, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.newsletter-content p{
-    color: white;
-    font-size:21.3px;
-    font-weight: 300;
-    letter-spacing: 1.2px;
-    text-align: left;
+.newsletter-content p {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  text-align: left;
+  margin: 55px 0;
+}
+
+.news-btn1 {
+  padding: 20px 26px;
+  font-size: 18px;
+  color: white;
+  border: white 1.76px solid;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 280ms linear;
+}
+
+.news-btn1:hover {
+  background-color: #def1ff;
+  color: black;
 }
