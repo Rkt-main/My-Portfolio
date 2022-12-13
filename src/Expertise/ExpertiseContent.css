@@ -20,9 +20,7 @@
   width: 75%;
   margin: auto;
   margin-bottom: 100px;
-  background: linear-gradient(to right, #0062ff 5%, #fff 95%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
 }
 
 .ex-content-all {
@@ -59,9 +57,13 @@
     left: -12.55px;
 }
 
+.Expertise-content .ex-content:hover .ex-logo img{
+  opacity: 1;
+}
+
 .ex-logo img{
     width: 100%;
-    height: 100%;
+    height: 100%;opacity: .5;
 }
 
 .ex-content h2 {
